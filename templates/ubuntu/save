@@ -1,0 +1,1 @@
+docker save -o ${PWD##*/}-`cat tag`.tar ${PWD##*/}:`cat tag`
