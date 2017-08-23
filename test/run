@@ -1,0 +1,1 @@
+docker run -p 80:80 -p 443:443 -i -d ${PWD##*/}:`cat tag` $1 $2 $3 $4
